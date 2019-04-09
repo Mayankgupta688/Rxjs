@@ -1,0 +1,32 @@
+{
+  "name": "rjxs-setup",
+  "version": "1.0.0",
+  "description": "Working with Rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayankgupta688/Rxjs.git"
+  },
+  "author": "Mayank Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayankgupta688/Rxjs/issues"
+  },
+  "homepage": "https://github.com/Mayankgupta688/Rxjs#readme",
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.2",
+    "typings": "^2.1.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.0"
+  }
+}
